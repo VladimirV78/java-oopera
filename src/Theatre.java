@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Theatre1 {
+public class Theatre {
 
     public static void main(String[] args) {
         System.out.println("🎭 Начинаем представление!");
