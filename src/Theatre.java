@@ -78,5 +78,6 @@ public class Theatre {
         // Выводим текст либретто для балета
         System.out.println("\nТекст либретто для балета: " + ballet.getTitle());
         ballet.printLibretto();
+
     }
 }
