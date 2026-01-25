@@ -12,8 +12,8 @@ public class MusicalShow extends Show {
         this.librettoText = librettoText;
     }
 
-    // Возвращаем либретто
-    public String getLibretto() {
-        return librettoText;
+    // Печатаем либретто
+    public void printLibretto() {
+        System.out.println("Либретто: " + librettoText);
     }
 }

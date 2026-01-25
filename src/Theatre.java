@@ -72,10 +72,13 @@ public class Theatre {
 
         // Выводим текст либретто для оперы
         System.out.println("\nТекст либретто для оперы: " + opera.getTitle());
-        System.out.println(opera.getLibretto());
+        opera.printLibretto();
 
         // Выводим текст либретто для балета
         System.out.println("\nТекст либретто для балета: " + ballet.getTitle());
-        System.out.println(ballet.getLibretto());
+        ballet.printLibretto();
+
+        System.out.println("\nРежиссёр спектакля: " + director1.toString());
+        System.out.println("\nРежиссёр оперы: " + director2.toString());
     }
 }

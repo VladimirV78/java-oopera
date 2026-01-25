@@ -8,6 +8,11 @@ public class Director extends Person {
 
     @Override
     public String toString() {
-        return super.getName() + " " + super.getSurname();
+        return "Director{" // имя класса
+                + "name='" + super.getName() + "', " // Имя
+                + "surname='" + super.getSurname() + "', " // Фамилия
+                + "gender=" + super.getGender()  + "', " // Пол
+                + "numberOfShows=" + this.numberOfShows // Количество спектаклей
+                + "}";
     }
 }
